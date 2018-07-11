@@ -43,3 +43,33 @@ and then in its drop off zone once the robot reaches it.
 ## Home Service Script
 The `home_service.sh` is a collection of all the scripts put together. It simulate a full home service robot capable of navigating to pick up and deliver a virtual object.
 ![home_service](./misc/home_service.png)
+
+
+#  Project Setup
+
+## Create a Catkin workspace
+```sh
+$ mkdir -p ~/catkin_ws/src
+$ cd ~/catkin_ws/src
+$ catkin_init_workspace
+
+```
+## Add Ro Kinetic navigation
+```sh
+$ sudo apt-get install ros-kinetic-navigation
+```
+
+##  Install gmapping
+```sh
+$ rosdep -i install gmapping
+```
+
+## Build
+```sh
+$ catkin_make
+```
+
+## Run Home Service
+```sh
+$./home_service.sh
+```
