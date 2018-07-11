@@ -39,3 +39,7 @@ The `add_markers.sh` create a virtual object with markers in rviz. The virtual o
 and then in its drop off zone once the robot reaches it.
 
 ![add_marker](./misc/add_marker.png)
+
+## Home Service Script
+The `home_service.sh` is a collection of all the scripts put together. It simulate a full home service robot capable of navigating to pick up and deliver a virtual object.
+![home_service](./misc/home_service.png)
