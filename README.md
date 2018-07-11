@@ -1,4 +1,4 @@
-# HomeServiceRobot
+# Home Service Robot
 
 
 # Shell Scripts
@@ -54,7 +54,7 @@ $ cd ~/catkin_ws/src
 $ catkin_init_workspace
 
 ```
-## Add Ro Kinetic navigation
+## Add Ros Kinetic navigation
 ```sh
 $ sudo apt-get install ros-kinetic-navigation
 ```
